@@ -1,4 +1,4 @@
-import CssBaseLine from '@material-ui/core/CssBaseLine'
+import { CssBaseLine } from '@material-ui/core'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import './App.scss';
