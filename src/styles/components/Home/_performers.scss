@@ -1,0 +1,92 @@
+.performer {
+    max-width: 90%!important;
+    // margin: 0 auto!important;
+    margin: 2rem auto!important;
+    padding: 0px!important;
+
+    h2 {
+        margin: 0;
+        font-size: 2.5rem;
+        padding-bottom: 1rem;
+        color: #172c71;
+    }
+
+    &__items {
+
+        &-item {
+            
+            .item {
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border-radius: 5px;
+                box-shadow: 0 1px 5px rgba(128, 128, 128, 0.548);
+                cursor: pointer;
+
+                img {
+                    height: 250px;
+                    width: auto;
+
+                }
+    
+                .type_of_performer {
+                    background: orange;
+                    text-align: center;
+                    padding: .25rem;
+                    width: 100%;
+                }
+
+                .performer_scores {
+                    text-align: center;
+                    padding: 1.5rem 0;
+
+                    p {
+                        margin: 0;
+                        font-size: 1.75rem;
+                        font-weight: bold;
+                        font-style: italic;
+                        line-height: 1.75rem;
+                    }
+
+                    h2 {
+                        font-size: 4.5rem;
+                        margin: 0;
+                        line-height:4rem;
+                        padding: 0rem 0 1rem;
+
+                        span {
+                            display: block;
+                            font-size: 1.25rem;
+                            font-weight: 500;
+                            line-height: 1rem;
+                        }
+                    }
+
+                    a {
+                        text-decoration: none;
+                        font-weight: 800;
+                        color: blueviolet;
+                        text-transform: uppercase;
+
+                        &:hover {
+                            color: rgb(178, 111, 241);
+                        }
+                    }
+                }
+    
+                .full_container {
+                    background: rgb(224, 224, 224);
+                    height: 100%;
+                }
+
+                &:hover {
+                    transform: translateY(-15px);
+                    transition: 0.5ms ease-in-out;
+                }
+            }
+        }
+    }
+    
+}

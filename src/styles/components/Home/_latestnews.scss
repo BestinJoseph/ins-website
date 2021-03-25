@@ -1,0 +1,45 @@
+.latestnews {
+  position: relative;
+  margin: 1rem auto 0 auto !important;
+  width: 80%;
+
+  h2 {
+    margin: 0;
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem;
+    color: #172c71;
+  }
+}
+
+.latest_image {
+  height: 15rem;
+}
+
+@media( max-width: 500px ) {
+  .latestnews {
+    position: relative;
+    margin: 1rem 1rem 0 1rem!important;
+  
+    h2 {
+      margin: 0;
+      font-size: 2.5rem;
+      padding-bottom: 1rem;
+      color: #172c71;
+    }
+  }
+}
+
+@media( max-width: 1390px ) {
+  .latestnews {
+    position: relative;
+    margin: 1rem auto 0 auto!important;
+    width: 90%;
+  }
+}
+
+@media( max-width: 1280px ) {
+  .latestnews {
+    position: relative;
+    margin: 1rem auto 0 auto!important;
+  }
+}
